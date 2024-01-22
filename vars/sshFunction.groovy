@@ -1,4 +1,4 @@
-def ssh(String user,String ip) {
+def ssh(String user, String ip) {
 sh "ssh ${user}@${ip}"
 }
 
