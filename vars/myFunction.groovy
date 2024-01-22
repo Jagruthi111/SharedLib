@@ -1,4 +1,4 @@
 def remove(name) {
-sh 'rm -rf ${name}'
+sh "rm -rf ${name}"
 }
     
